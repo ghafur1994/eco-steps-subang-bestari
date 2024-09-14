@@ -1,0 +1,95 @@
+<!-- Include jQuery and Bootstrap CSS/JS in your HTML file -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <special-title></special-title>
+  <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <special-header></special-header>
+  <!-- Your page content here -->
+  <special-footer></special-footer>
+
+  <!-- jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    class SpecialHeader extends HTMLElement {
+      connectedCallback() {
+        this.innerHTML = `
+          <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <a class="navbar-brand" href="index.html">
+                <img src="images/icon-eco-steps-subest.png" alt="Logo" style="width: 30px; height: 30px;">
+                Eco Steps SK Subang Bestari
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Utama</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">Tentang Kami</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="affiliate.html">Sahabat Kami</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pic.html">Kenali Kami</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Hubungi Kami</a>
+                  </li>
+                </ul>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown button
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        `;
+      }
+    }
+
+    class SpecialTitle extends HTMLElement {
+      connectedCallback() {
+        this.innerHTML = `
+          <title>Eco Steps Subang Bestari</title>
+          <link rel="icon" href="images/icon-eco-steps-subest.png" type="image/x-icon"/>
+        `;
+      }
+    }
+
+    class SpecialFooter extends HTMLElement {
+      connectedCallback() {
+        this.innerHTML = `
+          <footer class="container-fluid footer_section bg-light py-3">
+            <p class="text-center mb-0">
+              &copy; 2024 All Rights Reserved. Design by Pelajar Sekolah Kebangsaan Subang Bestari
+            </p>
+          </footer>
+        `;
+      }
+    }
+
+    customElements.define('special-header', SpecialHeader);
+    customElements.define('special-title', SpecialTitle);
+    customElements.define('special-footer', SpecialFooter);
+  </script>
+</body>
+</html>
