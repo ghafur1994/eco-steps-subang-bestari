@@ -19,19 +19,19 @@ class SpecialHeader extends HTMLElement {
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html"> Utama </a>
+                  <a class="nav-link" href="index.html"> Main </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link" href="about.html"> Tentang Kami </a>
+                  <a class="nav-link" href="about.html"> About </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="affiliate.html"> Sahabat Kami</a>
+                  <a class="nav-link" href="affiliate.html"> Disposal Facilities</a>
+                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="green_edu.html"> Green Education</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pic.html"> Kenali Kami</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html"> Hubungi Kami </a>
+                  <a class="nav-link" href="contact.html"> Contact Us </a>
                 </li>
               </ul>
             </div>
