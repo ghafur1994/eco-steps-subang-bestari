@@ -59,7 +59,7 @@ class SpecialFooter extends HTMLElement {
     <footer class="container-fluid footer_section">
       <p>
         &copy; 2024 All Rights Reserved. Design by
-        Pelajar Sekolah Kebangsaan Subang Bestari
+        Sekolah Kebangsaan Subang Bestari Students
       </p>
     </footer>
     `

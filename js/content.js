@@ -10,7 +10,7 @@ class SpecialContentContact extends HTMLElement {
                     </div>
                     <div class="detail-box">
                         <p>
-                        Lokasi Sekolah Kami: 
+                        School Location: 
                         </p>
                         <p>
                         <span>Jalan Nova U5/81, Subang Bestari, 40150 Shah Alam, Selangor</span>
@@ -24,7 +24,7 @@ class SpecialContentContact extends HTMLElement {
                         </div>
                         <div class="detail-box">
                         <p>
-                            No. Telefon Sekolah: 
+                            School Phone No.: 
                         </p>
                         <p>
                             03-7845 7401
@@ -39,7 +39,7 @@ class SpecialContentContact extends HTMLElement {
                         </div>
                         <div class="detail-box">
                         <p>
-                            Email Sekolah: 
+                            School Email Address: 
                         </p>
                         <p>
                             bba8268@moe.gov.my.com
