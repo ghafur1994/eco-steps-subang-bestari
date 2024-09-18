@@ -13,7 +13,7 @@ class SpecialContentContact extends HTMLElement {
                         School Location: 
                         </p>
                         <p>
-                        <span>Jalan Nova U5/81, Subang Bestari, 40150 Shah Alam, Selangor</span>
+                        <span>Sekolah Kebangsaan Subang Bestari, Jalan Nova U5/81, Subang Bestari, 40150 Shah Alam, Selangor</span>
                         </p>
                     </div>
                     </div>
